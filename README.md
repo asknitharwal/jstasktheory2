@@ -72,12 +72,12 @@ console.log(`The result of multiplying ${number1} and ${number2} is: ${result}`)
 
 // Function to divide two numbers
 function divideNumbers(a, b) {
-    // Check if the divisor is zero
+
     if (b === 0) {
         return "Cannot divide by zero!";
     }
 
-    // Perform the division
+   
     return a / b;
 }
 
